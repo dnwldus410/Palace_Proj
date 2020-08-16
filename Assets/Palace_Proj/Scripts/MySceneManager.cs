@@ -27,4 +27,7 @@ public class MySceneManager : MonoBehaviour
     public void onCreditsButtonClick(){
         SceneManager.LoadScene(2);
     }
+    public void onNewGameButtonClick(){
+        SceneManager.LoadScene(0);
+    }
 }
