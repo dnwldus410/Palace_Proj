@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class MySceneManager : MonoBehaviour
 {
     // Start is called before the first frame update
+
+    public GameObject settingmenu;
     void Start()
     {
         DontDestroyOnLoad(gameObject);
@@ -20,9 +22,9 @@ public class MySceneManager : MonoBehaviour
         SceneManager.LoadScene(1);
     }
     public void onSettingButtonClick(){
-        SceneManager.LoadScene(4);
+        settingmenu.gameObject.SetActive(true);
     }
     public void onCreditsButtonClick(){
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(2);
     }
 }
