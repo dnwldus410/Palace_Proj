@@ -7,7 +7,7 @@ using System.Collections.Generic;
 public class PanelManager : MonoBehaviour {
 
 	public Animator initiallyOpen;
-
+	public GameObject settingmenu;
 	private int m_OpenParameterId;
 	private Animator m_Open;
 	private GameObject m_PreviouslySelected;
@@ -68,6 +68,7 @@ public class PanelManager : MonoBehaviour {
 		m_Open.SetBool(m_OpenParameterId, false);
 		SetSelected(m_PreviouslySelected);
 		StartCoroutine(DisablePanelDeleyed(m_Open));
+		//settingmenu.gameObject.SetActive(false);
 		m_Open = null;
 	}
 
