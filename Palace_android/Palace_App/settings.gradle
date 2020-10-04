@@ -1,0 +1,4 @@
+include ':mapbox-vision_0.13.0'
+include ':mapbox-android-sdk-9.4.0'
+include ':app'
+rootProject.name = "Palace_App"

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Palace_App</string>
+
+    //맵박스관련
+    <string name="mapbox_access_token" translatable="false">sk.eyJ1Ijoic3VubnlwaWUiLCJhIjoiY2tmM3dtdHhvMDdpazM0bzRmdzJscjJsbCJ9.NXu5180eCyqn_jVZjlqoCQ</string>
+    <string name="vision_not_supported_title">Device is not supported</string>
+    <string name="ar_example">AR Example</string>
+    <string name="vision_not_supported_message">Vision SDK does not support this device yet, check more details at &lt;a href="https://docs.mapbox.com/android/vision/overview/#requirements">docs.mapbox.com&lt;/a></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start_description">궁 안내를 시작합니다</string>
+    <string name="user_location_permission_explanation">사용자 위치 동의 안내</string>
+    <string name="user_location_permission_not_granted">사용자 위치 동의 거부</string>
+    <string name="new_location">현재 위치 New lat: %1$s New longitude: %2$s</string>
+    <string name="camera_calibration_progress">Camera calibration: %1$d %%</string>
+    <string name="poi_example">POI Example</string>
+</resources>
