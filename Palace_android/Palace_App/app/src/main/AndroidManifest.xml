@@ -59,9 +59,6 @@
             android:name=".POIActivity"
             android:label="@string/poi_example"
             android:screenOrientation="landscape" />
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDBs29bjSTUrVZqy2_fit_luHYRb_fX4JA" />
     </application>
 
 </manifest>
